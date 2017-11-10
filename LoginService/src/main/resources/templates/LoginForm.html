@@ -1,0 +1,34 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Login</title>
+<style>
+    .error {
+        color: red; font-weight: bold;
+    }
+</style>
+</head>
+<body>
+    <div align="center">
+        <h2>Hope - Login Form</h2>
+        <table border="0" width="90%">
+        <form action="login" commandName="userForm">
+                <tr>
+                    <td align="left" width="20%">Email: </td>
+                    <td align="left" width="40%"><input path="email" size="30"/></td>
+                    <td align="left"><errors path="email" cssClass="error"/></td>
+                </tr>
+                <tr>
+                    <td>Password: </td>
+                    <td><password path="password" size="30"/></td>
+                    <td><errors path="password" cssClass="error"/></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="center"><input type="submit" value="Login"/></td>
+                    <td></td>
+                </tr>
+        </form>
+        </table>
+    </div>
+</body>
+</html>
