@@ -1,5 +1,6 @@
 package com.emtpday.loginservice.controllers;
 
+
 import com.emtpday.loginservice.models.UserModel;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
@@ -11,7 +12,6 @@ import javax.validation.Valid;
 
 @Controller
 public class LoginController extends WebMvcConfigurerAdapter {
-
 
 
     @GetMapping("/login")
