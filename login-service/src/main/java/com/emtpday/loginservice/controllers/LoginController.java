@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import javax.validation.Valid;
 
 @Controller
-public class LoginController extends WebMvcConfigurerAdapter {
+public class LoginController {
 
 
     @GetMapping("/login")

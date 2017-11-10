@@ -3,12 +3,12 @@
 <form action="#" th:action="@{/login}" th:object="${userModel}" method="post">
     <table>
         <tr>
-            <td>Name:</td>
+            <td>Email:</td>
             <td><input type="text" th:field="*{email}"/></td>
             <td th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email Error</td>
         </tr>
         <tr>
-            <td>Age:</td>
+            <td>Password:</td>
             <td>
                 <input type="password" th:field="*{password}"/>
 
