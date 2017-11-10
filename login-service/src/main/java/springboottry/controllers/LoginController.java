@@ -1,6 +1,5 @@
-package com.hope.springboottry.controllers;
+package springboottry.controllers;
 
-import com.hope.springboottry.models.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -9,6 +8,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import springboottry.models.User;
 
 import javax.validation.Valid;
 
@@ -17,7 +17,7 @@ public class LoginController extends WebMvcConfigurerAdapter {
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
-       registry.addViewController("templates/LoginSuccess");
+        registry.addViewController("templates/LoginSuccess");
     }
 
     @GetMapping("/login")
