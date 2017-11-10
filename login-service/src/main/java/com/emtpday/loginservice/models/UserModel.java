@@ -5,7 +5,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.validation.constraints.Size;
 
-public class User {
+public class UserModel {
     @NotEmpty
     @Email
     private String email;
