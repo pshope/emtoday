@@ -1,4 +1,4 @@
-package com.emtpday.loginservice.models;
+package com.hope.loginservice.models;
 
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
