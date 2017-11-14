@@ -14,7 +14,7 @@
     <properties>
         <docker.image.prefix>pshope</docker.image.prefix>
     </properties>
-    <build>
+    <!--<build>
         <plugins>
             <plugin>
                 <groupId>com.spotify</groupId>
@@ -35,7 +35,7 @@
                 </executions>
             </plugin>
         </plugins>
-    </build>
+    </build>-->
 
 
 
