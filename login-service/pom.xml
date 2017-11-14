@@ -11,8 +11,8 @@
 
     <artifactId>login-service</artifactId>
 
-    <!--<properties>
-        <docker.image.prefix>spotify</docker.image.prefix>
+    <properties>
+        <docker.image.prefix>pshope</docker.image.prefix>
     </properties>
     <build>
         <plugins>
@@ -29,12 +29,13 @@
                         <phase>install</phase>
                         <goals>
                             <goal>build</goal>
+                            <goal>push</goal>
                         </goals>
                     </execution>
                 </executions>
             </plugin>
         </plugins>
-    </build>-->
+    </build>
 
 
 
